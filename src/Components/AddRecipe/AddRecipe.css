@@ -1,0 +1,101 @@
+/* AddRecipe.css */
+.no-scroll {
+  overflow: hidden;
+  height: 100%;
+}
+
+.videoBackground {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+
+.container {
+  position: relative;
+  z-index: 1;
+  /* background-color: rgba(255, 255, 255, 0.8); */
+  padding: 20px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  width: 100%;
+}
+
+h1, h2 {
+  margin: 10px 0;
+  text-align: center;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  width: 100%;
+  max-width: 600px; /* Ensure the form doesn't stretch too wide */
+  /* background-color: white; */
+  padding: 20px;
+  border-radius: 8px;
+  /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); */
+}
+
+.formGroup {
+  margin-bottom: 15px;
+}
+
+.label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.input,
+.textarea {
+  width: 100%;
+  padding: 10px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+.textarea {
+  resize: vertical;
+}
+
+.submitButton,
+.backButton {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+.submitButton {
+  background-color: #007bff;
+  color: white;
+  width:100px;
+  margin-left: 250px;
+}
+
+.backButton {
+  background-color: #6c757d;
+  color: white;
+  width:200px;
+  margin-left: 40px;
+}
+
+.submitButton:hover {
+  background-color: #0056b3;
+}
+
+.backButton:hover {
+  background-color: #5a6268;
+}
